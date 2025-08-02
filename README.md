@@ -50,10 +50,9 @@ This repository contains the full-stack implementation using the MERN stack.
 🔗 DevConnect (under deployment)
 
 📁 Project Structure
-bash
-Copy code
+```
 devconnect/
-├── client/                  # React + Vite Frontend
+├── frontend/                  # React + Vite Frontend
 │   ├── src/
 │   │   ├── components/      # Reusable UI components
 │   │   ├── pages/           # Page routes (Home, Login, Register, etc.)
@@ -62,7 +61,7 @@ devconnect/
 │   │   └── main.jsx
 │   └── index.html
 │
-├── server/                  # Express Backend
+├── backend/                  # Express Backend
 │   ├── models/              # MongoDB models (User, Post)
 │   ├── routes/              # Auth and post-related routes
 │   ├── middleware/          # JWT, error handling, etc.
@@ -71,51 +70,54 @@ devconnect/
 │
 ├── .env.example             # Sample environment variables
 ├── package.json
+```
 ⚙️ Getting Started
 1️⃣ Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/devconnect
+# Frontend
+```
+git clone https://github.com/rockyhans/DevConnect 
 cd devconnect
+```
+# Backend
+```
+git clone https://github.com/rockyhans/DevConnect-backend
+cd devconnect
+```
+
 2️⃣ Setup Environment Variables
-Create .env files in both server and client directories.
+Create .env files in both server directories.
 
 Copy from .env.example and add your MongoDB URI, JWT secret, and server URLs.
 
 3️⃣ Install Dependencies
-bash
-Copy code
+
 # Backend
+```
 cd server
 npm install
+```
 
 # Frontend
+```
 cd ../client
 npm install
+```
 4️⃣ Run the Application
-bash
-Copy code
+
 # Backend
+```
 npm run dev   # on http://localhost:5000
+```
 
 # Frontend
+```
 npm run dev   # on http://localhost:3000
+```
 📅 Project Status
 This project is complete and ready for enhancement.
-You can easily extend features like:
 
-Likes & Comments
-
-Follower/Following system
-
-Admin dashboard
-
-Email verification and notifications
-
-Post analytics
 
 👤 Contributors
 <table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/164065390?v=4" width="80px;" alt="Danish Rizwan"/> <br /> <sub><b>Danish Rizwan</b></sub><br /> <sub>Full-Stack Developer</sub> </td> </tr> </table>
 📬 Contact
 📧 Email: rdanishrizwan@example.com
-💼 Portfolio: danishdev.me (replace with your portfolio if applicable)
