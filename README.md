@@ -1,54 +1,88 @@
-<h1 align="center" style="color:#2c3e50;">🌐 DevConnect</h1> <p align="center"> <img src="./PreviewApp.jpeg" alt="DevConnect Preview" width="700"/> </p> <p align="center"> <b>A Mini LinkedIn-style MERN community platform for developers.</b><br> Connect with others, share posts, manage profiles — all in one space. </p>
-📄 About the Project
-DevConnect is a sleek and scalable MERN-based mini social network tailored for developers and students.
+<h1 align="center" style="color:#2c3e50;">🌐 DevConnect</h1>
+
+<p align="center">
+  <img src="./PreviewApp.jpeg" alt="DevConnect Preview" width="700"/>
+</p>
+
+<p align="center">
+  <b>A Mini LinkedIn-style MERN community platform for developers.</b><br>
+  Connect with others, share posts, manage profiles — all in one space.
+</p>
+
+---
+
+## 📄 About the Project
+
+**DevConnect** is a sleek and scalable MERN-based mini social network tailored for developers and students.  
 It enables authenticated users to create and view posts, update profiles, interact socially, and much more.
 
-This platform offers a foundational model for learning full-stack development, social platforms, and secure user handling.
+This platform offers a foundational model for learning full-stack development, social media features, and secure user handling.
 
-# 🌟 Features
-## 🔐 User Authentication (JWT)
-Secure sign-up, login, and session persistence.
+---
 
-## 🧑‍💻 Profile Management
-View and update user details with optional profile image upload.
+## 🌟 Features
 
-## 📰 Community Post Feed
-See all public posts in a dynamic, real-time feed.
+- 🔐 User Authentication (JWT)**  
+  Secure sign-up, login, and session persistence.
 
-## ➕ Create, Edit, Delete Posts
-Logged-in users can manage their own posts with ease.
+- 🧑‍💻 **Profile Management**  
+  View and update user details with optional profile image upload.
 
-## 🌈 Modern Responsive UI
-Beautifully styled using Tailwind CSS and responsive across all screen sizes.
+- 📰 **Community Post Feed**  
+  See all public posts in a dynamic, real-time feed.
 
-## 🔒 Protected Routes
-Only authenticated users can access post creation, editing, or profile management.
+- ➕ **Create, Edit, Delete Posts**  
+  Logged-in users can manage their own posts with ease.
 
-## 📂 Image Upload (Optional)
-Upload images for user profile or posts (easily extendable).
+- 🌈 **Modern Responsive UI**  
+  Beautifully styled using Tailwind CSS and responsive across all screen sizes.
 
-## 🚫 404 Page
-Elegant “Page Not Found” screen for unknown routes.
+- 🔒 **Protected Routes**  
+  Only authenticated users can access post creation, editing, or profile management.
 
-## 🛠️ Tech Stack
-This repository contains the full-stack implementation using the MERN stack.
+- 📂 **Image Upload (Optional)**  
+  Upload images for user profiles or posts (easily extendable).
 
-⚛️ Frontend: React + Vite
+- 🚫 **404 Page**  
+  Elegant “Page Not Found” screen for unknown routes.
 
-🎨 Styling: Tailwind CSS
+- 🔧 **Form Error Handling & Validation**  
+  Proper error feedback for empty input, invalid credentials, etc.
 
-🔐 Auth: JWT-based Auth with Route Protection
+---
 
-🌐 Backend: Node.js + Express.js
+## 🛠️ Tech Stack Used
 
-🗃️ Database: MongoDB
+**Frontend**:  
+- ⚛️ React + Vite  
+- 🎨 Tailwind CSS  
+- 🔐 JWT for route protection
 
-## 🧪 Validation & Errors: Robust input validation & feedback handling
+**Backend**:  
+- 🌐 Node.js + Express.js  
+- 🗃️ MongoDB + Mongoose  
+- 🔒 JWT-based authentication  
+- 🛡️ Helmet, CORS, Express Validator, etc.
 
-# 🚀 Live Demo
-🌐 App Link: https://dev-connect-chi-khaki.vercel.app/
+---
 
-📁 Project Structure
+## 🔐 Demo / Admin Login
+
+You can use the following credentials to log in:
+
+- **Email**: `rdanishrizwan@gmail.com`  
+- **Password**: `nsdsab19`
+
+---
+
+## 🚀 Live Demo
+
+👉 [**Click to Launch DevConnect**](https://dev-connect-chi-khaki.vercel.app/)
+
+---
+
+## 🗂️ Project Structure
+
 ```
 devconnect/
 ├── frontend/                  # React + Vite Frontend
@@ -69,6 +103,15 @@ devconnect/
 │
 ├── .env.example             # Sample environment variables
 ├── package.json
+
+---
+
+## 📁 Backend Repository
+
+📦 GitHub: [https://github.com/rockyhans/DevConnect-backend](https://github.com/rockyhans/DevConnect-backend)
+
+---
+
 ```
 ⚙️ Getting Started
 1️⃣ Clone the Repository
