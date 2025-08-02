@@ -5,32 +5,32 @@ It enables authenticated users to create and view posts, update profiles, intera
 
 This platform offers a foundational model for learning full-stack development, social platforms, and secure user handling.
 
-## 🌟 Features
-# 🔐 User Authentication (JWT)
+# 🌟 Features
+## 🔐 User Authentication (JWT)
 Secure sign-up, login, and session persistence.
 
-# 🧑‍💻 Profile Management
+## 🧑‍💻 Profile Management
 View and update user details with optional profile image upload.
 
-# 📰 Community Post Feed
+## 📰 Community Post Feed
 See all public posts in a dynamic, real-time feed.
 
-# ➕ Create, Edit, Delete Posts
+## ➕ Create, Edit, Delete Posts
 Logged-in users can manage their own posts with ease.
 
-# 🌈 Modern Responsive UI
+## 🌈 Modern Responsive UI
 Beautifully styled using Tailwind CSS and responsive across all screen sizes.
 
-# 🔒 Protected Routes
+## 🔒 Protected Routes
 Only authenticated users can access post creation, editing, or profile management.
 
-# 📂 Image Upload (Optional)
+## 📂 Image Upload (Optional)
 Upload images for user profile or posts (easily extendable).
 
-# 🚫 404 Page
+## 🚫 404 Page
 Elegant “Page Not Found” screen for unknown routes.
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 This repository contains the full-stack implementation using the MERN stack.
 
 ⚛️ Frontend: React + Vite
@@ -43,7 +43,7 @@ This repository contains the full-stack implementation using the MERN stack.
 
 🗃️ Database: MongoDB
 
-# 🧪 Validation & Errors: Robust input validation & feedback handling
+## 🧪 Validation & Errors: Robust input validation & feedback handling
 
 # 🚀 Live Demo
 🌐 App Link: https://dev-connect-chi-khaki.vercel.app/
