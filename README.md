@@ -112,7 +112,7 @@ devconnect/
 
 ---
 
-```
+
 ⚙️ Getting Started
 1️⃣ Clone the Repository
 # Frontend
