@@ -103,7 +103,7 @@ devconnect/
 │
 ├── .env.example             # Sample environment variables
 ├── package.json
-
+```
 ---
 
 ## 📁 Backend Repository
