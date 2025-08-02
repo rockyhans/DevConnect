@@ -1,12 +1,121 @@
-# React + Vite
+<h1 align="center" style="color:#2c3e50;">🌐 DevConnect</h1> <p align="center"> <img src="./CommunityPreview.png" alt="DevConnect Preview" width="700"/> </p> <p align="center"> <b>A Mini LinkedIn-style MERN community platform for developers.</b><br> Connect with others, share posts, manage profiles — all in one space. </p>
+📄 About the Project
+DevConnect is a sleek and scalable MERN-based mini social network tailored for developers and students.
+It enables authenticated users to create and view posts, update profiles, interact socially, and much more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This platform offers a foundational model for learning full-stack development, social platforms, and secure user handling.
 
-Currently, two official plugins are available:
+🌟 Features
+🔐 User Authentication (JWT)
+Secure sign-up, login, and session persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧑‍💻 Profile Management
+View and update user details with optional profile image upload.
 
-## Expanding the ESLint configuration
+📰 Community Post Feed
+See all public posts in a dynamic, real-time feed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➕ Create, Edit, Delete Posts
+Logged-in users can manage their own posts with ease.
+
+🌈 Modern Responsive UI
+Beautifully styled using Tailwind CSS and responsive across all screen sizes.
+
+🔒 Protected Routes
+Only authenticated users can access post creation, editing, or profile management.
+
+📂 Image Upload (Optional)
+Upload images for user profile or posts (easily extendable).
+
+🚫 404 Page
+Elegant “Page Not Found” screen for unknown routes.
+
+🛠️ Tech Stack
+This repository contains the full-stack implementation using the MERN stack.
+
+⚛️ Frontend: React + Vite
+
+🎨 Styling: Tailwind CSS
+
+🔐 Auth: JWT-based Auth with Route Protection
+
+🌐 Backend: Node.js + Express.js
+
+🗃️ Database: MongoDB
+
+🧪 Validation & Errors: Robust input validation & feedback handling
+
+🚀 Live Demo
+🌐 App Link (Coming Soon):
+🔗 DevConnect (under deployment)
+
+📁 Project Structure
+bash
+Copy code
+devconnect/
+├── client/                  # React + Vite Frontend
+│   ├── src/
+│   │   ├── components/      # Reusable UI components
+│   │   ├── pages/           # Page routes (Home, Login, Register, etc.)
+│   │   ├── services/        # Axios API services
+│   │   ├── utils/           # PrivateRoute, error handling, etc.
+│   │   └── main.jsx
+│   └── index.html
+│
+├── server/                  # Express Backend
+│   ├── models/              # MongoDB models (User, Post)
+│   ├── routes/              # Auth and post-related routes
+│   ├── middleware/          # JWT, error handling, etc.
+│   ├── controllers/         # Logic handlers
+│   └── index.js             # Main server entry
+│
+├── .env.example             # Sample environment variables
+├── package.json
+⚙️ Getting Started
+1️⃣ Clone the Repository
+bash
+Copy code
+git clone https://github.com/yourusername/devconnect
+cd devconnect
+2️⃣ Setup Environment Variables
+Create .env files in both server and client directories.
+
+Copy from .env.example and add your MongoDB URI, JWT secret, and server URLs.
+
+3️⃣ Install Dependencies
+bash
+Copy code
+# Backend
+cd server
+npm install
+
+# Frontend
+cd ../client
+npm install
+4️⃣ Run the Application
+bash
+Copy code
+# Backend
+npm run dev   # on http://localhost:5000
+
+# Frontend
+npm run dev   # on http://localhost:3000
+📅 Project Status
+This project is complete and ready for enhancement.
+You can easily extend features like:
+
+Likes & Comments
+
+Follower/Following system
+
+Admin dashboard
+
+Email verification and notifications
+
+Post analytics
+
+👤 Contributors
+<table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/164065390?v=4" width="80px;" alt="Danish Rizwan"/> <br /> <sub><b>Danish Rizwan</b></sub><br /> <sub>Full-Stack Developer</sub> </td> </tr> </table>
+📬 Contact
+📧 Email: rdanishrizwan@example.com
+💼 Portfolio: danishdev.me (replace with your portfolio if applicable)
