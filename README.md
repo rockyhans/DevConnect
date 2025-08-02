@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#2c3e50;">🌐 DevConnect</h1> <p align="center"> <img src="./CommunityPreview.png" alt="DevConnect Preview" width="700"/> </p> <p align="center"> <b>A Mini LinkedIn-style MERN community platform for developers.</b><br> Connect with others, share posts, manage profiles — all in one space. </p>
+<h1 align="center" style="color:#2c3e50;">🌐 DevConnect</h1> <p align="center"> <img src="./PreviewApp.jpeg" alt="DevConnect Preview" width="700"/> </p> <p align="center"> <b>A Mini LinkedIn-style MERN community platform for developers.</b><br> Connect with others, share posts, manage profiles — all in one space. </p>
 📄 About the Project
 DevConnect is a sleek and scalable MERN-based mini social network tailored for developers and students.
 It enables authenticated users to create and view posts, update profiles, interact socially, and much more.
